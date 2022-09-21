@@ -11,7 +11,7 @@
       allowfullscreen
     ></iframe>
     <p class="centered">
-      {{ currNum }}/{{ impVideosLen }}<br /><a href="">Refresh</a> for more.
+      {{ currNum + 1 }}/{{ impVideosLen }}<br /><a href="">Refresh</a> for more.
     </p>
   </div>
 </template>
@@ -20,7 +20,7 @@
 import { impVideosIds } from "@/foos/funStuffLinks";
 
 const impVideosLen = impVideosIds.length;
-const currNum = Math.floor(Math.random() * impVideosLen) + 1;
+const currNum = Math.floor(Math.random() * impVideosLen);
 const randomElement = impVideosIds[currNum];
 const src = "https://www.youtube-nocookie.com/embed/" + randomElement;
 </script>
