@@ -1,25 +1,28 @@
 <template>
   <div class="container">
     <h2 class="colored">Random video from my important videos collection.</h2>
-    <iframe width="560" height="315" :src="src" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p class="centered">{{currNum}}/{{impVideosLen}}<br /><a href="" >Refresh</a> for more.</p>
+    <iframe
+      width="560"
+      height="315"
+      :src="src"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <p class="centered">
+      {{ currNum }}/{{ impVideosLen }}<br /><a href="">Refresh</a> for more.
+    </p>
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-import { impVideosIds } from "@/foos/funStuffLinks.ts";
+<script lang="ts" setup>
+import { impVideosIds } from "@/foos/funStuffLinks";
 
-export default defineComponent({
-  props: {},
-  setup(props) {
-    const impVideosLen = impVideosIds.length;
-    const currNum = Math.floor(Math.random() * impVideosLen); 
-    const randomElement = impVideosIds[currNum];
-    const src = "https://www.youtube-nocookie.com/embed/" + randomElement;
-    return { src, currNum, impVideosLen }
-  }
-});
+const impVideosLen = impVideosIds.length;
+const currNum = Math.floor(Math.random() * impVideosLen) + 1;
+const randomElement = impVideosIds[currNum];
+const src = "https://www.youtube-nocookie.com/embed/" + randomElement;
 </script>
 
 <style scoped>
@@ -36,6 +39,6 @@ p.centered {
 }
 
 h2.colored {
-  color: #f0c3f0
+  color: #f0c3f0;
 }
 </style>
