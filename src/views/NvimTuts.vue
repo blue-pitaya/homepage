@@ -3,13 +3,6 @@
     <h1>Neovim master race</h1>
     <h2>Why</h2>
     <a href="https://www.youtube.com/watch?v=84qoMxS-iqQ">WATCH THIS</a>
-    <p>
-      You can try my
-      <router-link class="imageRouterLink" to="/vim_emulator"
-        >vim pseudo-emulator</router-link
-      >. It's trying to copy very basic features of vim for tutorial purposes.
-      If you want full expirence dowload neovim and try it yourself.
-    </p>
     <h2>Configuration</h2>
     All dotfiles, including nvim configs, can be found on my
     <a href="https://github.com/blue-pitaya/dotfiles">github</a>.

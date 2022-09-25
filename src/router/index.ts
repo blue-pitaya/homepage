@@ -3,7 +3,6 @@ import Home from "../views/Home.vue";
 import FunStuff from "../views/FunStuff.vue";
 import NvimTuts from "@/views/NvimTuts.vue";
 import Linux from "@/views/Linux.vue";
-import EmulatorPage from "@/views/EmulatorPage.vue";
 import CodingPageNavigation from "@/views/CodingPage/Navigation.vue";
 import CodingPageAbout from "@/views/CodingPage/About.vue";
 import CodingPageProjects from "@/views/CodingPage/Projects.vue";
@@ -47,11 +46,6 @@ const routes: Array<RouteRecordRaw> = [
         component: CodingPageProjects,
       },
     ],
-  },
-  {
-    path: "/vim_emulator",
-    name: "Vim emulator",
-    component: EmulatorPage,
   },
 ];
 
