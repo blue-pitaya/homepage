@@ -1,4 +1,4 @@
-export const impVideosIds = [
+const impVideosIds = [
   "bnmAi53H520",
   "TMqR-GBwcsY",
   "BEtIoGQxqQs",
@@ -200,3 +200,18 @@ export const impVideosIds = [
   "hsXkvXA8A2Q",
   "3HrKTFTDLxA",
 ];
+
+function randomVideo() {
+  const impVideosLen = impVideosIds.length;
+  const currNum = Math.floor(Math.random() * impVideosLen);
+  const randomElement = impVideosIds[currNum];
+  const src = "https://www.youtube-nocookie.com/embed/" + randomElement;
+
+  document.getElementById("video").setAttribute("src", src);
+  document.getElementById("imp-video-label").innerHTML =
+    "" + (currNum + 1) + "/" + impVideosLen;
+}
+
+addEventListener("load", () => {
+  randomVideo();
+});
