@@ -77,6 +77,10 @@ a.router-link-active {
   color: #42b983;
 }
 
+.goblin {
+  color: #42b983;
+}
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(0px);
@@ -181,8 +185,8 @@ h2.colored {
   padding: 10px;
 }
 
-#projects a {
-  display: block;
+.text-nav > a {
+  color: #42b983;
 }
 
 noscript {
