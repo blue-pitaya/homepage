@@ -96,6 +96,8 @@ a.router-link-active {
 
 :root {
   --gray: #202020;
+  --ligray: #505050;
+  --blue-ass-water: #548be3;
 }
 
 #nav {
@@ -186,4 +188,20 @@ h2.colored {
 noscript {
   color: red;
   font-weight: bold;
+}
+
+ul {
+  text-align: left;
+}
+
+.mynote {
+  color: var(--blue-ass-water);
+}
+
+.shh {
+  color: var(--ligray);
+}
+
+.funky {
+  color: #eb21e4;
 }
