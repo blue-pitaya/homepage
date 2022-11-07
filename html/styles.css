@@ -209,3 +209,18 @@ ul {
 .funky {
   color: #eb21e4;
 }
+
+code {
+  background-color: #333333;
+}
+
+.bluelinks a {
+  font-weight: bold;
+  color: var(--blue-ass-water);
+  text-decoration: none;
+}
+
+.mini-screen {
+  width: 900px;
+  border: 1px solid gray;
+}
