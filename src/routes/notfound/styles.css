@@ -1,0 +1,25 @@
+.back h1 {
+  font-size: 70px;
+  color: red;
+}
+
+.back img {
+  width: 300px;
+}
+
+.back {
+  background: url("/images/matrix.gif");
+  background-color: black;
+  background-repeat: repeat;
+  display: column;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+}
+
+.flexed {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}

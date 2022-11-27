@@ -1,0 +1,19 @@
+.mini-screen {
+  width: 900px;
+  border: 1px solid gray;
+}
+
+.nvim-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.bluelinks a {
+  font-weight: bold;
+  color: var(--blue-ass-water);
+  text-decoration: none;
+}

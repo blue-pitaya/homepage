@@ -1,0 +1,19 @@
+.goblin-color {
+  color: #42b983;
+}
+
+.mynote-color {
+  color: var(--blue-ass-water);
+}
+
+.shh-color {
+  color: var(--ligray);
+}
+
+.funky-color {
+  color: #eb21e4;
+}
+
+.book {
+  width: 300px;
+}

@@ -1,0 +1,8 @@
+h2.colored {
+  color: #f0c3f0;
+}
+
+.reloadLink {
+  cursor: pointer;
+  user-select: none;
+}
