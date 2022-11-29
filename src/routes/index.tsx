@@ -13,10 +13,10 @@ export default component$(() => {
       </p>
       <p>This website won't work properly on phones, since i hate css.</p>
       <p>
-        Contact me, if you want:
+        Contact me, if you want:{" "}
         <span class="blueAddress">blue.pitaya@pm.me</span>
         <br />
-        My github page: <a href="https://github.com/blue-pitaya">blue-pitaya</a>
+        My github page:{" "}<a href="https://github.com/blue-pitaya">blue-pitaya</a>
       </p>
     </div>
   );

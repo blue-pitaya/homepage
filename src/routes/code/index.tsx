@@ -21,7 +21,7 @@ export default component$(() => {
         <a class="goblin-color" href="https://stopwatch.bluepitaya.xyz">
           DEMO
         </a>
-        )<span>•</span>
+        ){" "}<span>•</span>{" "}
         <a href="https://github.com/blue-pitaya/chessboard">Chessboard</a>(
         <a class="goblin-color" href="https://chessboard.bluepitaya.xyz">
           DEMO

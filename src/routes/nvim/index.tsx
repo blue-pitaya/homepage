@@ -144,7 +144,7 @@ export default component$(() => {
         </ul>
         <p>
           Full list is in <code>plugins.lua</code> file. I also use custom
-          colorscheme which supports true color (inspired by
+          colorscheme which supports true color (inspired by{" "}
           <a href="https://github.com/nonoMain/nvimrc/blob/master/colors/cplex.vim">
             this one
           </a>
