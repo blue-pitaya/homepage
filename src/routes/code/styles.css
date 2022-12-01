@@ -1,5 +1,5 @@
 .goblin-color {
-  color: #42b983;
+  color: var(--niceGreen);
 }
 
 .mynote-color {
@@ -11,7 +11,7 @@
 }
 
 .funky-color {
-  color: #eb21e4;
+  color: var(--pinkOverride);
 }
 
 .book {

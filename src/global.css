@@ -6,56 +6,36 @@
  *
  */
 
-/* start */
-
 @font-face {
-  font-family: "Iosevka Web";
-  font-display: swap;
-  font-weight: 400;
-  font-stretch: normal;
-  font-style: normal;
-  src: url("/fonts/iosevka-regular.woff2") format("woff2");
+  font-family: "Gidole";
+  src: url("/fonts/Gidole-Regular.ttf");
 }
 
-@font-face {
-  font-family: "Iosevka Web";
-  font-display: swap;
-  font-weight: 400;
-  font-stretch: normal;
-  font-style: italic;
-  src: url("/fonts/iosevka-italic.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Iosevka Web";
-  font-display: swap;
-  font-weight: 700;
-  font-stretch: normal;
-  font-style: normal;
-  src: url("/fonts/iosevka-bold.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Iosevka Web";
-  font-display: swap;
-  font-weight: 700;
-  font-stretch: normal;
-  font-style: italic;
-  src: url("/fonts/iosevka-bolditalic.woff2") format("woff2");
+:root {
+  --bg-color: #121212;
+  --font-color: #dddddd;
+  --code-bg-color: #303030;
+  --gray: #202020;
+  --ligray: #505050;
+  --blue-ass-water: #548be3;
+  --pink: #f0c3f0;
+  --niceGreen: #42b983;
+  --orange: #c28246;
+  --yellow: #fff7bd;
+  --pinkOverride: #eb21e4;
+  --aqua: #99f8ff;
 }
 
 html {
-  background: #0f0f0f;
-  font-size: 1.1rem;
+  background: var(--bg-color);
+  font-size: 14pt;
   width: 100%;
 }
 
 body {
-  font-family: Iosevka Web, Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Gidole, sans-serif;
   text-align: center;
-  color: #f0f0f0;
+  color: var(--font-color);
   max-width: 1100px;
   display: flex;
   flex-direction: column;
@@ -63,13 +43,13 @@ body {
 }
 
 h1 {
-  font-size: 2.2rem;
-  color: #f0c3f0;
+  font-size: 2rem;
   font-weight: bold;
+  color: var(--pink);
 }
 
 h2 {
-  color: #c28246;
+  color: var(--orange);
   font-weight: bold;
 }
 
@@ -78,15 +58,35 @@ p {
 }
 
 a {
-  font-weight: bold;
-  color: #fff7bd;
+  color: var(--yellow);
   text-decoration: none;
 }
 
 a:hover {
-  font-weight: bold;
-  color: #42b983;
+  color: var(--niceGreen);
   text-decoration: none;
+}
+
+ul {
+  text-align: left;
+  list-style-type: square;
+  margin: 5px 0 30px 0;
+  padding-left: 25px;
+}
+
+li {
+  padding: 6px 0;
+}
+
+li::marker {
+  color: var(--qwik-light-blue);
+}
+
+code {
+  font-family: monospace;
+  background-color: var(--code-bg-color);
+  font-size: 0.9em;
+  padding: 2px 4px;
 }
 
 @keyframes slideInFromLeft {
@@ -104,12 +104,6 @@ a:hover {
   top: 0;
   left: -100px;
   animation: slideInFromLeft linear 5s forwards;
-}
-
-:root {
-  --gray: #202020;
-  --ligray: #505050;
-  --blue-ass-water: #548be3;
 }
 
 .imageRouterLink {
@@ -132,34 +126,12 @@ a:hover {
   }
 }
 
-.blueAddress {
-  color: #99f8ff;
-}
-
 .margined {
   margin-top: 50px;
 }
 
-.github-icon {
-  width: 24px;
-  height: 24px;
-}
-
-.fun-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-
 p.centered {
   text-align: center;
-}
-
-noscript {
-  color: red;
-  font-weight: bold;
 }
 
 .tux-image-container {
@@ -179,26 +151,5 @@ noscript {
 }
 
 .text-nav > a {
-  color: #42b983;
-}
-
-ul {
-  text-align: left;
-  list-style-type: square;
-  margin: 5px 0 30px 0;
-  padding-left: 25px;
-}
-
-li {
-  padding: 6px 0;
-}
-
-li::marker {
-  color: var(--qwik-light-blue);
-}
-
-code {
-  font-family: Menlo, Monaco, Courier New, monospace;
-  font-size: 0.9em;
-  padding: 2px 4px;
+  color: var(--niceGreen);
 }

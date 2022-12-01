@@ -52,8 +52,8 @@ export default component$(() => {
       </p>
       <h2 id="config">My config</h2>
       <p>
-        My neovim config can be found in
-        <a href="https://github.com/blue-pitaya/dotfiles">this repo</a>, under
+        My neovim config can be found in{" "}
+        <a href="https://github.com/blue-pitaya/dotfiles">this repo</a>, under{" "}
         <code>dotfiles/.config/nvim</code> directory. I also recommend changing
         key repetition time. I use 250ms delay before key repetition (
         <code>xset r rate 250 50</code>). It will allow to navigate text by keys

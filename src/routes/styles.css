@@ -6,3 +6,7 @@
 .qwikLogo {
   max-width: 200px;
 }
+
+.blueAddress {
+  color: var(--aqua);
+}
