@@ -41,6 +41,10 @@
   font-size: 1.3rem;
 }
 
+.blueColored {
+  color: var(--blue-ass-water);
+}
+
 .projectStack {
   font-size: 0.9rem;
   color: var(--secondary-text-color);

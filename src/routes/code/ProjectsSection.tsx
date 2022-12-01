@@ -10,6 +10,22 @@ export default component$(() => {
       <div class="projectSubsection">
         <div class="projectContainer">
           <div class="projectTitleCont">
+            <span class="projectTitle blueColored">x2mindmap.com</span>
+            <span>
+              (<a href="https://x2mindmap.com">link</a>)
+            </span>
+          </div>
+          <span>
+            Tool for crating mind maps. One of major features is generating mind
+            map from text/markdown. Currently in beta. New updates pushed
+            regularly.
+          </span>
+          <span class="projectStack">
+            Cats Effect, Scala.js, Vue.js, scala, typescript
+          </span>
+        </div>
+        <div class="projectContainer">
+          <div class="projectTitleCont">
             <span class="projectTitle">Stopwatch</span>
             <span>
               (<a href="https://stopwatch.bluepitaya.xyz">demo</a> •{" "}
