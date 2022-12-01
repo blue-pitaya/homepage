@@ -1,5 +1,6 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import styles from "./styles.css?inline";
+import ProjectsSection from "./ProjectsSection";
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -15,22 +16,7 @@ export default component$(() => {
       </div>
       <h1>Coding</h1>
       <h2 id="projects">My projects</h2>
-      <div id="projects">
-        <p class="centered">Apps</p>
-        <a href="https://github.com/blue-pitaya/stopwatch">Stopwatch</a>(
-        <a class="goblin-color" href="https://stopwatch.bluepitaya.xyz">
-          DEMO
-        </a>
-        ) <span>•</span>{" "}
-        <a href="https://github.com/blue-pitaya/chessboard">Chessboard</a>(
-        <a class="goblin-color" href="https://chessboard.bluepitaya.xyz">
-          DEMO
-        </a>
-        )<p class="centered">Libs</p>
-        <a href="https://github.com/blue-pitaya/scala-d3-force">
-          scala-d3-force
-        </a>
-      </div>
+      <ProjectsSection />
       <h2 id="aboutme">About me</h2>
       <p>
         I like functional programming. I like strong static typing. I like clean

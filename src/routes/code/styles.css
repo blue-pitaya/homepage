@@ -17,3 +17,38 @@
 .book {
   width: 300px;
 }
+
+.projectsSection {
+  text-align: left;
+}
+
+.projectSubsection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  background: var(--section-bg-color);
+  padding: 10px;
+  gap: 8px;
+}
+
+.projectTitle {
+  color: var(--niceGreen);
+  font-size: 1.3rem;
+}
+
+.projectStack {
+  font-size: 0.9rem;
+  color: var(--secondary-text-color);
+}
+
+.projectTitleCont {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
