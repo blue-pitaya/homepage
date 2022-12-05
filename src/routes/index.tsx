@@ -25,13 +25,16 @@ export default component$(() => {
         My github page: <a href="https://github.com/blue-pitaya">blue-pitaya</a>
       </p>
       <div class="madeUsingContainer">
-        <p>This page was made using:</p>
+        <p>This website was made using:</p>
         <a href="https://qwik.builder.io/">
           <img class="qwikLogo" src="/images/qwik-logo.svg" />
         </a>
         <p>
           because of{" "}
           <a href="https://www.youtube.com/watch?v=x2eF3YLiNhY">this</a> hype.
+          <br />
+          Source code of this page is available on{" "}
+          <a href="https://github.com/blue-pitaya/homepage">github</a>.
         </p>
       </div>
     </div>

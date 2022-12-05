@@ -116,7 +116,7 @@ code {
 
 .shaggy {
   width: 100px;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: -100px;
   animation: slideInFromLeft linear 5s forwards;
