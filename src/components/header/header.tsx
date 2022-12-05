@@ -15,9 +15,9 @@ export default component$(() => {
           </Link>
         </li>
         <li>
-          <Link href="/nvim/" class="imageRouterLink">
-            <img src="/images/ide_vim_plugin_320px.png" />
-            <span>(Neo)vim</span>
+          <Link href="/code/" class="imageRouterLink">
+            <img id="funStuffImg" src="/images/monke_coding.png" />
+            <span>Coding</span>
           </Link>
         </li>
         <li>
@@ -27,9 +27,9 @@ export default component$(() => {
           </Link>
         </li>
         <li>
-          <Link href="/code/" class="imageRouterLink">
-            <img id="funStuffImg" src="/images/monke_coding.png" />
-            <span>Coding</span>
+          <Link href="/nvim/" class="imageRouterLink">
+            <img src="/images/ide_vim_plugin_320px.png" />
+            <span>(Neo)vim</span>
           </Link>
         </li>
         <li>
