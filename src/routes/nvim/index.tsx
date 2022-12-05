@@ -19,25 +19,26 @@ export default component$(() => {
       <img src="/images/neovim-logo.svg" style="width: 420px" />
       <h2 id="#motivation">Motivation</h2>
       <p>
-        I have used many IDEs and text editors in my life: Turbo Pascal,
-        Code::Blocks, Geany, Eclipse, various JetBrains IDEs, Visual Studio, VS
-        Code. At first I didn't have much expectations of features, design etc.
-        If I could just write code, have some syntax highlight and maybe some
-        shortcuts to compile/run, I was happy. As my experience grew I wanted
-        more. IDE is the most important tool for developer to work and I wanted
-        a perfect tool. But productivity wasn't the only goal, I also wanted
-        from my IDE to "look cool" and to not be bloated with features I don't
-        use.
+        Why i chose to use neovim? I have used many IDEs and text editors in my
+        life: Turbo Pascal, Geany, Eclipse, various JetBrains IDEs, Visual
+        Studio, VS Code. At first, i didn't have much expectation for features,
+        design, etc. I was happy while i could just write code, have some syntax
+        highlight and maybe some shortcuts to compile/run. As my experience grew
+        i wanted more functionalities. IDE is the most important tool for a
+        developer to work with and i wanted a perfect tool. But productivity
+        wasn't the only goal, i also wanted to my IDE "look cool" and not to be
+        bloated with features i don't really use.
       </p>
       <p>
-        I started using vim and soon after neovim and i fell in love with it. It
-        wasn't really productive at first, because i had to learn some basics
-        and configure it A LOT, but i liked the "terminal look" and minimalistic
-        style from beginning. I quickly realized how switching between mouse and
-        keyboard was uncomfortable for me. Configuration was also fun (but i
-        know that most people don't find it interesting), because I could chose
-        what i really need and customized it even to the level of source code.
-        Finally, I could compose a perfect tool for myself.
+        Soon after i started using vim, i discovered neovim and i fell in love
+        with it. It wasn't really productive at first, because i had to learn
+        some basics and configure it A LOT, but i liked the "terminal look" and
+        minimalistic style from the very beginning. I quickly realized how
+        switching between mouse and keyboard was uncomfortable for me.
+        Configuration was also fun (though i know that most people don't find it
+        interesting), because i could chose what i really needed and customized
+        it even to the level of source code. Finally, i could compose a perfect
+        tool for myself.
       </p>
       <p>
         Check out those videos for more info:
@@ -113,12 +114,13 @@ export default component$(() => {
             <a href="https://github.com/neovim/nvim-lspconfig">
               nvim-lspconfig
             </a>{" "}
-            - set of lsp configurations for various langueas. LSP is language
-            server protocol, it allows to do "IDE" specific operations like
-            finding referneces, gettings code errors etc. Nvim natively supports
-            lsp. This plugin is just set of common configurations of various
-            programming languages. Currently (as writhing this sentence) i only
-            use the vue/typescript config from it.
+            - a set of lsp configurations for various langueas. LSP is a
+            language server protocol, it makes it possible to do "IDE" specific
+            operations like finding referneces, gettings code errors, etc. Nvim
+            natively supports lsp. This plugin is just set of common
+            configurations of various programming languages. Currently (as
+            writhing this sentence) i only use the vue/typescript config from
+            it.
           </li>
           <li>
             <a href="https://github.com/scalameta/nvim-metals">nvim-metals</a> -

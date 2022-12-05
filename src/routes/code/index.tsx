@@ -32,7 +32,8 @@ export default component$(() => {
         <li>Kotlin (mobile)</li>
         <li>Ruby on rails (fuck ruby)</li>
         <li>
-          C/C++ (algorithm implementations and some shit projects for studies)
+          C/C++ (algorithm implementations and some shit projects during
+          studies)
         </li>
         <li>Pascal (in primary school)</li>
         <li>SQL (MySQL, MSSQL, Postgres)</li>
@@ -46,15 +47,15 @@ export default component$(() => {
       </p>
       <h2 id="notes">Notes</h2>
       <p>
-        One of major aspects in programming in abstraction. Nobody could write
-        any complex system without abstraction of some level. And that's what
+        One of major aspects in programming is abstraction. Nobody could write
+        any complex system without some level of abstraction. And that's what
         programmers are good at: finding patterns/similarities in problems that
-        they're encountering and generalizing them. For example we have a pretty
-        big set of funny anagrams like KISS, YAGNI, DRY to only name some. Here
-        i want to share my own realizations that I came to while coding. They
-        can be opaque, not complete, unorganized (as they come directly from my
-        notes) or just plain stupid. However maybe they will prevent me for
-        making the same mistakes over and over again ;)
+        they're encountering and generalizing them. For example, we have a
+        pretty big set of funny anagrams like KISS, YAGNI and DRY to only name a
+        few. Here i want to share my own realizations that I came to while
+        coding. They can be opaque, not complete, unorganized (as they come
+        directly from my notes) or just plain stupid. However, maybe they will
+        prevent me from making the same mistakes over and over again ;)
         <br />
         <br />
         <i class="mynote-color">

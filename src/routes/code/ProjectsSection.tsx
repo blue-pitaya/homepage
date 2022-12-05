@@ -16,8 +16,8 @@ export default component$(() => {
             </span>
           </div>
           <span>
-            Tool for crating mind maps. One of major features is generating mind
-            map from text/markdown. Currently in beta. New updates pushed
+            A tool for crating mind maps. One of major features is generating
+            mind maps from text. Currently in beta. New updates pushed
             regularly.
           </span>
           <span class="projectStack">
@@ -32,7 +32,7 @@ export default component$(() => {
               <a href="https://github.com/blue-pitaya/stopwatch">source</a>)
             </span>
           </div>
-          <span>Simple stopwatch application.</span>
+          <span>A simple stopwatch application.</span>
           <span class="projectStack">Vue.js, typescript</span>
         </div>
         <div class="projectContainer">
@@ -45,9 +45,9 @@ export default component$(() => {
           </div>
           <span>
             Chessboard simulator. For now only piece moving logic is implemented
-            (inlcuding en passant and castling, but not promoting). Project is
-            still in progress, in future playing online with other players will
-            be possible.
+            (inlcuding en passant and castling, but not promoting). The project
+            is still in progress; in near future playing online with other
+            players will be possible.
           </span>
           <span class="projectStack">Scala.js, Vue.js, typescript</span>
         </div>
@@ -64,7 +64,7 @@ export default component$(() => {
             </span>
           </div>
           <span>
-            Popular JS lib d3-force implementation for scala. Rewrited with
+            Popular JS lib d3-force implementation for scala. Rewritten with
             functional coding style.
           </span>
           <span class="projectStack">scala</span>
