@@ -56,3 +56,12 @@
   gap: 10px;
   align-items: center;
 }
+
+.langName {
+  font-size: 1.2rem;
+  color: var(--pink);
+}
+
+.langStack {
+  color: var(--secondary-text-color);
+}
