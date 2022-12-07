@@ -1,0 +1,31 @@
+.shaggy {
+  width: 100px;
+  position: absolute;
+  top: 0;
+  left: -100px;
+  animation: slideInFromLeft linear 5s forwards;
+  cursor: pointer;
+}
+
+.shaggyText {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

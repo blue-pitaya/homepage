@@ -118,14 +118,6 @@ code {
   }
 }
 
-.shaggy {
-  width: 100px;
-  position: absolute;
-  top: 0;
-  left: -100px;
-  animation: slideInFromLeft linear 5s forwards;
-}
-
 .imageRouterLink {
   display: flex;
   flex-direction: column;
