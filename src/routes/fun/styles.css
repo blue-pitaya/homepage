@@ -7,10 +7,19 @@ h2.colored {
   user-select: none;
 }
 
-.fun-container {
+.impVidsContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+
+.linksCont {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.linksCont a {
+  text-align: left;
 }
