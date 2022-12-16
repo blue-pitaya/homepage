@@ -35,10 +35,10 @@ export default component$(() => {
           I'd call it necessary evil ;) I've worked on some sites in react
           (+redux). For my personal projects, I've switched to vue, just because
           i was curios. Both <del>frameworks</del> libraries are very similar. I
-          think i like react more, but have more fluency in vue. Although, js/ts
-          is great for building UI, i wouldn't use it to write more complex
-          logic. For this purpose, i'd use more safe, complete and preditcable
-          language. That's why i'm so enthusiastic about scala.js.
+          think i like vue more, but only cause I have more fluency in it.
+          Although, js/ts is great for building UI, i wouldn't use it to write
+          more complex logic. For this purpose, i'd use more safe, complete and
+          preditcable language. That's why i'm so enthusiastic about scala.js.
         </LangItem>
         <LangItem name="C#" stack="(WPF, Desktop)">
           Language itself is good, i'd say. It's relation with microsoft's

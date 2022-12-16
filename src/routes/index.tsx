@@ -8,11 +8,11 @@ export default component$(() => {
     <div>
       <h1>Home</h1>
       <p>
-        Hi! I'm blue pitaya, aka kodus8 and this is my homepage. I post here
-        some content about my interests: coding and linux. There is also "fun
-        stuff" section where is my collection of memes. Also don't worry about
-        shaggy's reversed face appearing from corner, i put it for fun and no
-        other reason.
+        Hi! I'm blue pitaya and this is my homepage. I post here some content
+        about my interests: coding and linux. There is also "fun stuff" section
+        where is my collection of memes. Also don't worry about shaggy's
+        reversed face appearing from corner, i put it for fun and no other
+        reason.
       </p>
       <p>
         This website won't work properly on phones, since i'm too lazy to write
